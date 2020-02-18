@@ -284,8 +284,7 @@
 				D1F3385D2201D99A005BE5F1 /* CoreDataManager.swift */,
 				D1F3385E2201D99A005BE5F1 /* DataStoreManager.swift */,
 			);
-			name = CoreData;
-			path = ../../Shared/CoreData;
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		D1F3385F2201D99A005BE5F1 /* Common */ = {
@@ -294,8 +293,7 @@
 				D1EBD066227C5ECF0004C349 /* KABotClient.swift */,
 				D1F338602201D99A005BE5F1 /* Common.swift */,
 			);
-			name = Common;
-			path = ../../Shared/Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		D1F338612201D99A005BE5F1 /* DataModel */ = {
@@ -311,8 +309,7 @@
 				D1F3386A2201D99A005BE5F1 /* KREComponent+CoreDataClass.swift */,
 				D1F3386B2201D99A005BE5F1 /* KREComponent+CoreDataProperties.swift */,
 			);
-			name = DataModel;
-			path = ../../Shared/DataModel;
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 		D1F3386C2201D99A005BE5F1 /* Library */ = {
@@ -327,8 +324,7 @@
 				D1F338842201D99A005BE5F1 /* AttributedLabel */,
 				D1F3388D2201D99A005BE5F1 /* BubbleViews */,
 			);
-			name = Library;
-			path = ../../Shared/Library;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		D1F3386D2201D99A005BE5F1 /* Vendors */ = {
@@ -521,8 +517,7 @@
 				D1F338BC2201D99A005BE5F1 /* BotMessages */,
 				D1F338C02201D99A005BE5F1 /* AppLaunch */,
 			);
-			name = Controllers;
-			path = ../../Shared/Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D1F338AD2201D99A005BE5F1 /* ChatMessages */ = {
