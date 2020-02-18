@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - Charts (3.2.0):
+    - Charts/Core (= 3.2.0)
+  - Charts/Core (3.2.0)
+  - KoreBotSDK (0.1.1):
+    - KoreBotSDK/Library (= 0.1.1)
+    - KoreBotSDK/UIKit (= 0.1.1)
+  - KoreBotSDK/Library (0.1.1):
+    - AFNetworking (= 3.2.0)
+    - Mantle (= 2.0.2)
+    - SocketRocket
+  - KoreBotSDK/UIKit (0.1.1):
+    - AFNetworking (= 3.2.0)
+  - Mantle (2.0.2):
+    - Mantle/extobjc (= 2.0.2)
+  - Mantle/extobjc (2.0.2)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.2.0)
+  - Charts (= 3.2.0)
+  - KoreBotSDK (from `https://github.com/Koredotcom/iOS-kore-sdk.git`)
+  - Mantle (= 2.0.2)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Charts
+    - Mantle
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  KoreBotSDK:
+    :git: https://github.com/Koredotcom/iOS-kore-sdk.git
+
+CHECKOUT OPTIONS:
+  KoreBotSDK:
+    :commit: 2fc53e6cd612e78b65cc52c7311f885bf0c110de
+    :git: https://github.com/Koredotcom/iOS-kore-sdk.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  Charts: 680c8328bd5e90cb14f67e00d2176f3113d19141
+  KoreBotSDK: dce46990aeffbe228aaee846a176a21f40eac6b4
+  Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: b77c4c1d95481d74ef4a5e2ecd6c7bf93c1f3200
+
+COCOAPODS: 1.8.4
