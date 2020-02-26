@@ -30,7 +30,7 @@ class AppLaunchViewController: UIViewController {
        // self.chatButton.setTitle(String(format: "%@", chatBotName), for: .normal)
         setInitialState()
         self.automaticallyAdjustsScrollViewInsets = false
-        imgView.contentMode = .scaleAspectFit
+        imgView.contentMode = .scaleToFill
     }
     
     override func viewDidAppear(_ animated: Bool) {

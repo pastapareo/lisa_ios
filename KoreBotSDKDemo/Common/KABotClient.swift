@@ -17,7 +17,7 @@ public protocol KABotClientDelegate: NSObjectProtocol {
 }
 
 open class KABotClient: NSObject {
-    // MARK:- shared instance
+    // MARK:- shared instances
     fileprivate var isConnected: Bool = false {
         didSet {
             if isConnected {

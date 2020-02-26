@@ -20,17 +20,17 @@ class SDKConfiguration: NSObject {
         
         static let clientSecret = "0VePn3F8POITeYC8utx/VviErRl7aCe1C1dnc47YkBQ=" // Copy this value from Bot Builder SDK Settings ex. Wibn3ULagYyq0J10LCndswYycHGLuIWbwHvTRSfLwhs=
         
-        static let botId =  "st-93db62c6-b2e3-5fbb-9895-0750e9626be6" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. st-acecd91f-b009-5f3f-9c15-7249186d827d
+        static let botId =  "st-375c7b5f-29e0-5fef-ade4-6342f0f46337" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. st-acecd91f-b009-5f3f-9c15-7249186d827d
 
-        static let chatBotName = "Alice" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. "Demo Bot"
+        static let chatBotName = "Banking Bot" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. "Demo Bot"
         
         static let identity = "user@example.com"// This should represent the subject for JWT token. This can be an email or phone number, in case of known user, and in case of anonymous user, this can be a randomly generated unique id.
         
-        static let isAnonymous = false // This should be either true (in case of known-user) or false (in-case of anonymous user).
+        static let isAnonymous = true // This should be either true (in case of known-user) or false (in-case of anonymous user).
     }
     
     struct serverConfig {
-        static let JWT_SERVER = String(format: "http://localhost:3000/api/") // Replace it with the actual JWT server URL, if required. Refer to developer documentation for instructions on hosting JWT Server.
+        static let JWT_SERVER = String(format: "http://10.117.64.6:3000/api/") // Replace it with the actual JWT server URL, if required. Refer to developer documentation for instructions on hosting JWT Server.
         
         static func koreJwtUrl() -> String {
             return String(format: "%@users/sts", JWT_SERVER)
