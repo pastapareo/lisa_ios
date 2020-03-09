@@ -16,15 +16,15 @@ class SDKConfiguration: NSObject {
     }
     
     struct botConfig {
-        static let clientId = "cs-9d8f1ef4-ce2e-55c4-8026-de2745001b80" // Copy this value from Bot Builder SDK Settings ex. cs-5250bdc9-6bfe-5ece-92c9-ab54aa2d4285
+        static let clientId = "cs-2f79a25c-c2d4-5b2a-b235-4886e5d2ade8" // Copy this value from Bot Builder SDK Settings ex. cs-5250bdc9-6bfe-5ece-92c9-ab54aa2d4285
         
-        static let clientSecret = "0VePn3F8POITeYC8utx/VviErRl7aCe1C1dnc47YkBQ=" // Copy this value from Bot Builder SDK Settings ex. Wibn3ULagYyq0J10LCndswYycHGLuIWbwHvTRSfLwhs=
+        static let clientSecret = "VU+O3CioUi8d3Wfzk8AwsLok1BcpReEKpTn1B1Jn9wA=" // Copy this value from Bot Builder SDK Settings ex. Wibn3ULagYyq0J10LCndswYycHGLuIWbwHvTRSfLwhs=
         
-        static let botId =  "st-375c7b5f-29e0-5fef-ade4-6342f0f46337" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. st-acecd91f-b009-5f3f-9c15-7249186d827d
+        static let botId =  "st-e9b988bb-a5ff-5cff-90ab-19ea642eb336" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. st-acecd91f-b009-5f3f-9c15-7249186d827d
 
-        static let chatBotName = "Banking Bot" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. "Demo Bot"
+        static let chatBotName = "Lisa" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. "Demo Bot"
         
-        static let identity = "user@example.com"// This should represent the subject for JWT token. This can be an email or phone number, in case of known user, and in case of anonymous user, this can be a randomly generated unique id.
+        static let identity = "kuricalonge@gmail.com"// This should represent the subject for JWT token. This can be an email or phone number, in case of known user, and in case of anonymous user, this can be a randomly generated unique id.
         
         static let isAnonymous = true // This should be either true (in case of known-user) or false (in-case of anonymous user).
     }
