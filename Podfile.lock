@@ -14,9 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
+  - BlueCryptor (1.0.32)
+  - BlueECC (1.2.5)
+  - BlueRSA (1.0.34)
   - Charts (3.2.0):
     - Charts/Core (= 3.2.0)
   - Charts/Core (3.2.0)
+  - KituraContracts (1.2.1):
+    - LoggerAPI (~> 1.7)
   - KoreBotSDK (0.1.1):
     - KoreBotSDK/Library (= 0.1.1)
     - KoreBotSDK/UIKit (= 0.1.1)
@@ -26,23 +31,40 @@ PODS:
     - SocketRocket
   - KoreBotSDK/UIKit (0.1.1):
     - AFNetworking (= 3.2.0)
+  - LoggerAPI (1.9.0):
+    - Logging (~> 1.1)
+  - Logging (1.2.0)
   - Mantle (2.0.2):
     - Mantle/extobjc (= 2.0.2)
   - Mantle/extobjc (2.0.2)
   - SocketRocket (0.5.1)
+  - SwiftJWT (3.5.3):
+    - BlueCryptor (~> 1.0)
+    - BlueECC (~> 1.1)
+    - BlueRSA (~> 1.0)
+    - KituraContracts (~> 1.1)
+    - LoggerAPI (~> 1.7)
 
 DEPENDENCIES:
   - AFNetworking (= 3.2.0)
   - Charts (= 3.2.0)
   - KoreBotSDK (from `https://github.com/Koredotcom/iOS-kore-sdk.git`)
   - Mantle (= 2.0.2)
+  - SwiftJWT
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - BlueCryptor
+    - BlueECC
+    - BlueRSA
     - Charts
+    - KituraContracts
+    - LoggerAPI
+    - Logging
     - Mantle
     - SocketRocket
+    - SwiftJWT
 
 EXTERNAL SOURCES:
   KoreBotSDK:
@@ -55,11 +77,18 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  BlueCryptor: b0aee3d9b8f367b49b30de11cda90e1735571c24
+  BlueECC: 0d18e93347d3ec6d41416de21c1ffa4d4cd3c2cc
+  BlueRSA: 6f9776d62d9773502415a7db3bcbb2bbb3f71fc3
   Charts: 680c8328bd5e90cb14f67e00d2176f3113d19141
+  KituraContracts: e845e60dc8627ad0a76fa55ef20a45451d8f830b
   KoreBotSDK: dce46990aeffbe228aaee846a176a21f40eac6b4
+  LoggerAPI: fb78461eedac5316b290f2404d88b9d614d96c57
+  Logging: 7838d379d234d7e5ae1265fa02804a9084caf04c
   Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SwiftJWT: 9a47a71090cae25767078756b5810e3b630aa9a7
 
-PODFILE CHECKSUM: b77c4c1d95481d74ef4a5e2ecd6c7bf93c1f3200
+PODFILE CHECKSUM: cee4424ce6fe2f17c39a1089b6a39091f7a608be
 
 COCOAPODS: 1.8.4

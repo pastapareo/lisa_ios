@@ -20,17 +20,17 @@ class SDKConfiguration: NSObject {
         
         static let clientSecret = "VU+O3CioUi8d3Wfzk8AwsLok1BcpReEKpTn1B1Jn9wA=" // Copy this value from Bot Builder SDK Settings ex. Wibn3ULagYyq0J10LCndswYycHGLuIWbwHvTRSfLwhs=
         
-        static let botId =  "st-e9b988bb-a5ff-5cff-90ab-19ea642eb336" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. st-acecd91f-b009-5f3f-9c15-7249186d827d
+        static let botId =  "st-d98dddb0-6906-5106-8955-20fefb4d7044" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. st-acecd91f-b009-5f3f-9c15-7249186d827d
 
-        static let chatBotName = "Lisa" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. "Demo Bot"
+        static let chatBotName = "Lisa B2C" // Copy this value from Bot Builder -> Channels -> Web/Mobile Client  ex. "Demo Bot"
         
-        static let identity = "kuricalonge@gmail.com"// This should represent the subject for JWT token. This can be an email or phone number, in case of known user, and in case of anonymous user, this can be a randomly generated unique id.
+        static let identity = "pasta.pareo@gmail.com"// This should represent the subject for JWT token. This can be an email or phone number, in case of known user, and in case of anonymous user, this can be a randomly generated unique id.
         
         static let isAnonymous = true // This should be either true (in case of known-user) or false (in-case of anonymous user).
     }
     
     struct serverConfig {
-        static let JWT_SERVER = String(format: "http://10.117.64.6:3000/api/") // Replace it with the actual JWT server URL, if required. Refer to developer documentation for instructions on hosting JWT Server.
+        static let JWT_SERVER = String(format: "http://localhost:3000/api/") // Replace it with the actual JWT server URL, if required. Refer to developer documentation for instructions on hosting JWT Server.
         
         static func koreJwtUrl() -> String {
             return String(format: "%@users/sts", JWT_SERVER)

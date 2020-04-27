@@ -96,6 +96,7 @@ class AppLaunchViewController: UIViewController {
                 self.navigationController?.pushViewController(botViewController, animated: false)
             }) { (error) in
                 activityIndicatorView.stopAnimating()
+                self.showAlert(title: "Chatbot POC", message: "You must be connected to Finastra network to continue")
                 self.chatButton.isUserInteractionEnabled = true
             }
         } else {

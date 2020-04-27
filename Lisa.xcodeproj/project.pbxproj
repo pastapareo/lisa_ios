@@ -10,7 +10,7 @@
 		050267521DEC65BF001256D3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050267511DEC65BF001256D3 /* AVFoundation.framework */; };
 		0590F8441DED7A1B00107721 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590F8401DED7A1B00107721 /* AudioToolbox.framework */; };
 		0590F8461DED7A1B00107721 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0590F8421DED7A1B00107721 /* CoreAudio.framework */; };
-		3300997B3576AF403C74F497 /* Pods_Lisa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D79D99FCB3A0A522BEB4FA1 /* Pods_Lisa.framework */; };
+		A159099102846C23A31DCED9 /* Pods_Lisa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4671B821717A394D77CA1AAC /* Pods_Lisa.framework */; };
 		D15041091DE2C4BC00F2F92E /* Messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = D15041081DE2C4BC00F2F92E /* Messages.plist */; };
 		D15045D51DE422CB008DE46E /* BotConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = D15045D41DE422CB008DE46E /* BotConfiguration.plist */; };
 		D175AD4E1CEF0CD500BB9442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D175AD4D1CEF0CD500BB9442 /* AppDelegate.swift */; };
@@ -90,9 +90,9 @@
 		0590F8411DED7A1B00107721 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		0590F8421DED7A1B00107721 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		0590F8431DED7A1B00107721 /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
-		2D79D99FCB3A0A522BEB4FA1 /* Pods_Lisa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lisa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51DE2782060F8CC04D7DA2B8 /* Pods-Lisa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lisa.debug.xcconfig"; path = "Target Support Files/Pods-Lisa/Pods-Lisa.debug.xcconfig"; sourceTree = "<group>"; };
-		8B1DFA8730658FC70FE6790D /* Pods-Lisa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lisa.release.xcconfig"; path = "Target Support Files/Pods-Lisa/Pods-Lisa.release.xcconfig"; sourceTree = "<group>"; };
+		2E4F161DC82D5EE605044D33 /* Pods-Lisa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lisa.debug.xcconfig"; path = "Target Support Files/Pods-Lisa/Pods-Lisa.debug.xcconfig"; sourceTree = "<group>"; };
+		4671B821717A394D77CA1AAC /* Pods_Lisa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lisa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B690D1377BD51F8F67803A /* Pods-Lisa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lisa.release.xcconfig"; path = "Target Support Files/Pods-Lisa/Pods-Lisa.release.xcconfig"; sourceTree = "<group>"; };
 		D15041081DE2C4BC00F2F92E /* Messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Messages.plist; sourceTree = "<group>"; };
 		D15045D41DE422CB008DE46E /* BotConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BotConfiguration.plist; sourceTree = "<group>"; };
 		D175AD4A1CEF0CD500BB9442 /* Lisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,7 +187,7 @@
 				0590F8441DED7A1B00107721 /* AudioToolbox.framework in Frameworks */,
 				0590F8461DED7A1B00107721 /* CoreAudio.framework in Frameworks */,
 				050267521DEC65BF001256D3 /* AVFoundation.framework in Frameworks */,
-				3300997B3576AF403C74F497 /* Pods_Lisa.framework in Frameworks */,
+				A159099102846C23A31DCED9 /* Pods_Lisa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +197,8 @@
 		3AAEFCE10308CADCE85167E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51DE2782060F8CC04D7DA2B8 /* Pods-Lisa.debug.xcconfig */,
-				8B1DFA8730658FC70FE6790D /* Pods-Lisa.release.xcconfig */,
+				2E4F161DC82D5EE605044D33 /* Pods-Lisa.debug.xcconfig */,
+				76B690D1377BD51F8F67803A /* Pods-Lisa.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -211,7 +211,7 @@
 				0590F8421DED7A1B00107721 /* CoreAudio.framework */,
 				0590F8431DED7A1B00107721 /* CoreAudioKit.framework */,
 				050267511DEC65BF001256D3 /* AVFoundation.framework */,
-				2D79D99FCB3A0A522BEB4FA1 /* Pods_Lisa.framework */,
+				4671B821717A394D77CA1AAC /* Pods_Lisa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -579,11 +579,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D175AD5C1CEF0CD500BB9442 /* Build configuration list for PBXNativeTarget "Lisa" */;
 			buildPhases = (
-				7E6DE102F82C6BFFE3EAEFBE /* [CP] Check Pods Manifest.lock */,
+				1CC3202DFBEC69DFEA3129FD /* [CP] Check Pods Manifest.lock */,
 				D175AD461CEF0CD500BB9442 /* Sources */,
 				D175AD471CEF0CD500BB9442 /* Frameworks */,
 				D175AD481CEF0CD500BB9442 /* Resources */,
-				B6B396F49304EC5D1C39093D /* [CP] Embed Pods Frameworks */,
+				A095554216BBEC1458995158 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -653,7 +653,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7E6DE102F82C6BFFE3EAEFBE /* [CP] Check Pods Manifest.lock */ = {
+		1CC3202DFBEC69DFEA3129FD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -675,7 +675,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B6B396F49304EC5D1C39093D /* [CP] Embed Pods Frameworks */ = {
+		A095554216BBEC1458995158 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -683,18 +683,32 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Lisa/Pods-Lisa-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueCryptor/Cryptor.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueECC/CryptorECC.framework",
+				"${BUILT_PRODUCTS_DIR}/BlueRSA/CryptorRSA.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/KituraContracts/KituraContracts.framework",
 				"${BUILT_PRODUCTS_DIR}/KoreBotSDK/KoreBotSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/LoggerAPI/LoggerAPI.framework",
+				"${BUILT_PRODUCTS_DIR}/Logging/Logging.framework",
 				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
 				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftJWT/SwiftJWT.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cryptor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptorECC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptorRSA.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KituraContracts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KoreBotSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LoggerAPI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Logging.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftJWT.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -902,7 +916,7 @@
 		};
 		D175AD5D1CEF0CD500BB9442 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51DE2782060F8CC04D7DA2B8 /* Pods-Lisa.debug.xcconfig */;
+			baseConfigurationReference = 2E4F161DC82D5EE605044D33 /* Pods-Lisa.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -910,11 +924,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development: Christian Patrick Calonge (U3LMC8Y7S2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0;
 				DEVELOPMENT_TEAM = 67U58L475J;
 				INFOPLIST_FILE = KoreBotSDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.4.0;
+				MARKETING_VERSION = 0.5.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEV_ENV\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.finastra.retailbanking.ilm;
 				PRODUCT_NAME = Lisa;
@@ -929,7 +944,7 @@
 		};
 		D175AD5E1CEF0CD500BB9442 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B1DFA8730658FC70FE6790D /* Pods-Lisa.release.xcconfig */;
+			baseConfigurationReference = 76B690D1377BD51F8F67803A /* Pods-Lisa.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -937,11 +952,12 @@
 				CODE_SIGN_IDENTITY = "Apple Development: Christian Patrick Calonge (U3LMC8Y7S2)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2.0;
 				DEVELOPMENT_TEAM = 67U58L475J;
 				INFOPLIST_FILE = KoreBotSDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.4.0;
+				MARKETING_VERSION = 0.5.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEV_ENV\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.finastra.retailbanking.ilm;
 				PRODUCT_NAME = Lisa;
